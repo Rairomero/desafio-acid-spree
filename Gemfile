@@ -38,6 +38,11 @@ gem 'spree', '~> 3.4.0'
 gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
 
+# awesome_print
+gem 'awesome_print', '~> 1.8'
+# spree_simple_report_view
+gem 'spree_simple_report_view', path: '../spree_simple_report_view'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
